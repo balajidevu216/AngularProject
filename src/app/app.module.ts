@@ -13,6 +13,7 @@ import { NgForDirectiveComponent } from './ng-for-directive/ng-for-directive.com
 import { NgSwitchDirectiveComponent } from './ng-switch-directive/ng-switch-directive.component';
 import { MyServiceComponent } from './my-service/my-service.component';
 import { DataService } from './data.service';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DataService } from './data.service';
     NgIfDirectiveComponent,
     NgForDirectiveComponent,
     NgSwitchDirectiveComponent,
-    MyServiceComponent
+    MyServiceComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
