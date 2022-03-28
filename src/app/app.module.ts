@@ -14,6 +14,10 @@ import { NgSwitchDirectiveComponent } from './ng-switch-directive/ng-switch-dire
 import { MyServiceComponent } from './my-service/my-service.component';
 import { DataService } from './data.service';
 import { PipesComponent } from './pipes/pipes.component';
+import { HttpClientModule } from '@angular/common/http';
+
+
+
 
 @NgModule({
   declarations: [
@@ -27,11 +31,13 @@ import { PipesComponent } from './pipes/pipes.component';
     NgForDirectiveComponent,
     NgSwitchDirectiveComponent,
     MyServiceComponent,
-    PipesComponent
+    PipesComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
