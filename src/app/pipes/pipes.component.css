@@ -1,0 +1,7 @@
+.bgc {
+    color: aliceblue;
+    background-image: linear-gradient(to right,rgb(160, 9, 160),rgb(38, 38, 148));
+    padding: 45px ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
