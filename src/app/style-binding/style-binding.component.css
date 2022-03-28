@@ -1,0 +1,7 @@
+.bgc {
+    background-image: linear-gradient(to right,rgb(22, 31, 112),rgb(25, 128, 39));
+    padding: 50px;
+    text-align: center;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

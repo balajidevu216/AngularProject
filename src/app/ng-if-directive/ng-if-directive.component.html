@@ -1,0 +1,16 @@
+<div class="bgc">
+    <h1>ngIf Directive works!</h1>
+    <br>
+    <h1 *ngIf="status;then trueBlock else elseBlock"></h1>
+
+    <ng-template then #trueBlock>
+        <h2>trueBlock Applied</h2>
+        <button (click)="onClick()" type="button" class="btn btn-warning">LogIn</button>
+    </ng-template>
+
+    <ng-template else #elseBlock>
+        <h2>elseBlock Applied</h2>
+        <button (click)="clickOn()" type="button" class="btn btn-danger">SignIn</button>
+    </ng-template>
+    
+</div>

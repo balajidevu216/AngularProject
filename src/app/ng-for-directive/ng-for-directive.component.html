@@ -1,0 +1,31 @@
+<div class="bgc">
+    <h2>NgFor Directive works !</h2>
+    <h2>List Of EMPLOYEES NAMES AND THEIR IDS</h2>
+    <table>
+      <thead>
+          <th>SI.No</th>
+          <th>Employee Name</th>
+          <th>Employee ID</th>
+          <th>Contact Number</th>
+          <th>Alternative No</th>
+          <th>City</th>
+          <th>Pin</th>
+          <th>District</th>
+          <th>State</th>
+      </thead>
+
+      <tr *ngFor="let employee of Employeelist">
+       <td>{{employee.num}}</td>
+       <td>{{employee.name}}</td>
+       <td>{{employee.id}}</td>
+       <td>{{employee.cn}}</td>
+       <td>{{employee.an}}</td>
+       <td>{{employee.c}}</td>
+       <td>{{employee.p}}</td>
+       <td>{{employee.d}}</td>
+       <td>{{employee.s}}</td>
+      </tr>
+
+    </table>
+    
+</div>

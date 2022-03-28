@@ -1,0 +1,16 @@
+table,th,td {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+th,td {
+    padding: 5px;
+    text-align: left;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bgc {
+    background-color: rgb(100, 16, 89);
+    padding: 50px;
+    text-align: center;
+    color :cadetblue
+}
