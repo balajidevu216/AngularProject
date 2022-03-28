@@ -3,7 +3,8 @@
 </head>
 
 <div>
-  <!-- <app-interpolation></app-interpolation>
+  
+  <app-interpolation></app-interpolation>
   <app-property-binding></app-property-binding>
   <app-class-binding></app-class-binding>
   <app-style-binding></app-style-binding>
@@ -11,9 +12,14 @@
   <app-ng-if-directive></app-ng-if-directive>
   <app-ng-for-directive></app-ng-for-directive>
   <app-ng-switch-directive></app-ng-switch-directive>
-  <app-my-service></app-my-service> -->
-
+  <app-my-service></app-my-service>
   <app-pipes></app-pipes>
+
+  <div *ngFor="let user of users$">
+    <h4>name of the user is {{user.name}} and id is {{user.id}}</h4>
+    <p>email of the user is {{user.email}} and the user Name is {{user.name}}</p>
+  </div>
+
 </div>
 
 
